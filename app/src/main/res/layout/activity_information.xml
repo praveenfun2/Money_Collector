@@ -5,16 +5,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.praveengupta.money_collector.Information">
 
-    <android.support.v7.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:elevation="4dp"
-        android:id="@+id/toolbar_sub"
-        android:background="#bf1a1a" />
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/toolbar_sub"
+        android:layout_below="@id/toolbar"
         android:padding="16dp">
         <ImageView
             android:layout_margin="16dp"

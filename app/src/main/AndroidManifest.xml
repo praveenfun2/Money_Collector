@@ -24,7 +24,6 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar">
             <intent-filter>
 
-                <!-- Change this to be db- followed by your app key -->
                 <data android:scheme="db-vbrl5bo4ctyl9bz" />
 
                 <action android:name="android.intent.action.VIEW" />
@@ -33,7 +32,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Information"></activity>
+        <activity android:name=".Information"/>
+
     </application>
 
 </manifest>
