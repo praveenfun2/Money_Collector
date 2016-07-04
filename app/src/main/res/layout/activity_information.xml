@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.praveengupta.money_collector.Information">
+    tools:context="com.example.praveengupta.money_collector.Information"
+    android:background="@drawable/main_back_2">
 
     <include layout="@layout/toolbar"
         android:id="@+id/toolbar"/>
@@ -17,7 +18,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:id="@+id/imageView"
-            android:src="@mipmap/ic_launcher"
+            android:src="@android:drawable/sym_def_app_icon"
         />
         <EditText
             android:layout_width="match_parent"
