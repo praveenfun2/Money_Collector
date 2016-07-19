@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:textColor="#2962FF"
-        android:text="paveenfun2@gmail.com"
+        android:text="praveenfun2@gmail.com"
         android:onClick="mail"
         android:layout_below="@+id/about_image"
         android:layout_centerHorizontal="true" />
